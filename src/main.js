@@ -10,7 +10,7 @@ import {
     const session = await cameraKit.createSession()
     document.getElementById('canvas').replaceWith(session.output.live)
 
-    const { lenses } = await cameraKit.lensRepository.loadLensGroups(['40983991-0e15-40d5-a409-65f840e8bd69'])
+    const { lenses } = await cameraKit.lensRepository.loadLensGroups(['765c8106-3d03-4655-bdca-bdefce719b25'])
 
     session.applyLens(lenses[0])
 
